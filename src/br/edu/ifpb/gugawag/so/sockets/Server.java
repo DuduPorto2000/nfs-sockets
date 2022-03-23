@@ -93,7 +93,7 @@ public class Server {
                                 arquivoAntigo.delete();
                                 resposta = "Arquivo removido com sucesso!";
                             } else {
-                                resposta = "Erro ao selecionar arquivo, tente novamente";
+                                resposta = "Erro ao selecionar arquivo";
                             }
                         } else {
                             resposta = "Por favor escolha uma opção valida";
